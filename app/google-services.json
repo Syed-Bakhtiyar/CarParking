@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "26021700311",
+    "firebase_url": "https://parkingapp-ba5ff.firebaseio.com",
+    "project_id": "parkingapp-ba5ff",
+    "storage_bucket": "parkingapp-ba5ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26021700311:android:b898a68db8688186",
+        "android_client_info": {
+          "package_name": "com.example.bakhtiyar.carparkingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26021700311-o42inpp20ojr7qcn0uv1nbpo54q3ee0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMq1BgKsb0aClXyBbl8kCFELYjZqptk6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26021700311-o42inpp20ojr7qcn0uv1nbpo54q3ee0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

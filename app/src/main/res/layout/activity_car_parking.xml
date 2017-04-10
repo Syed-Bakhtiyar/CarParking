@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bakhtiyar.carparkingapp.CarParking">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/bb"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/i"
+                android:id="@+id/one"/>
+
+            <ImageButton
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/i"
+                android:id="@+id/two"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/i"/>
+
+            <ImageButton
+                android:id="@+id/four"
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/i"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/i"/>
+
+            <ImageButton
+                android:id="@+id/six"
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/i"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

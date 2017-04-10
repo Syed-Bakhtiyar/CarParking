@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.bakhtiyar.carparkingapp.OrderParking">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fees 100 rupees"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#660000"/>
+
+            <EditText
+                android:textColorHint="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:hint="Name"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:textColor="#000"
+                android:text="Time:"/>
+                <TextView
+
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/before"
+                    android:gravity="center"
+                    android:hint="Click here to select Time"/>
+                <TextView
+                    android:layout_weight="0.2"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:text="to"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/after"
+                    android:gravity="center"
+                    android:hint="Click here to select Time"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book"
+                android:id="@+id/save" />
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
